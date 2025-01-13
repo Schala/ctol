@@ -7,6 +7,9 @@ class Character(IntEnum):
 	MARLE = 2
 	LUCCA = 3
 	FROG = 4
+	ROBO = 5
+	AYLA = 6
+	MAGUS = 7
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
 	sock.connect((sys.argv[1], 12345))
